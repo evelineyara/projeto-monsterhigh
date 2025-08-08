@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Henny+Penny&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Manufacturing+Consent&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Henny+Penny&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Manufacturing+Consent&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --cor01:"rgba(55, 4, 85, 0.774)";
+    --fontedestaque:"Henny Penny";
+    --fontpadrao:"Quicksand";
+}
+
+body {
+    background-image: linear-gradient(to right,  rgba(40, 3, 61, 0.774), black);
+}
+
+body > h2 {
+    text-align: center;
+    font-family: var(--fontpadrao);
+    font-weight: normal;
+    font-size: 15px;
+}
+
+h2 > a {
+    text-decoration: none;
+    color: rgb(151, 82, 216);
+    font-size: 17px;
+}
+
+h2 > a:hover {
+    background-image: linear-gradient(to right, blueviolet, transparent);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding: 5px;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+header {
+    text-align: center;
+    font-family: var(--fontedestaque);
+    font-weight: normal;
+    background-color: rgba(74, 4, 107, 0.185);
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.192);
+}
+
+nav a {
+    text-decoration: none;
+    font-family: var(--fontedestaque);
+    font-size: 15px;
+    color: blueviolet;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: rgba(167, 72, 255, 0.37);
+    border-radius: 25px;
+    padding: 10px;
+
+    transition-duration: 0.4s;
+}
+
+main {
+    margin: auto;
+    min-width: 280px;
+    max-width: 800px;
+    text-align: center;
+    background-image: linear-gradient(to right, black, rgba(137, 43, 226, 0.068));
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.192);
+}
+
+div.video {
+    margin: 0px -20px 0px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe {
+    max-width: 720px ;
+    margin: auto;
+    position: absolute;
+    top: 5% ;
+    left: 5% ;
+    width: 90% ;
+    height: 90% ;
+}
+
+main > p {
+    font-family: var(--fontpadrao);
+    color: blueviolet;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+main > p a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main > p a:hover {
+    color: rgb(140, 0, 255);
+}
+
+main > h1 {
+    font-family: var(--fontedestaque);
+    font-weight: normal;
+    padding-top: 30px;
+    color: rgb(151, 82, 216);
+}
+
+div a {
+    text-decoration: none;
+}
+
+footer {
+     text-align: center;
+    font-family: var(--fontedestaque);
+    font-weight: normal;
+    background-color: rgba(74, 4, 107, 0.185);
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.192);
+}
+
+footer a {
+    text-decoration: none;
+    color: blueviolet;
+
+}
+
+footer a:hover {
+    color: black;
+    background-color: rgba(167, 72, 255, 0.37);
+    border-radius: 25px;
+    padding: 10px;
+
+    transition-duration: 0.4s;
+}
