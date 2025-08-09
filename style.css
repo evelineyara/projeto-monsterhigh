@@ -114,7 +114,7 @@ main > h1 {
 }
 
 main img.pequena {
-    max-width: 520px;
+    max-width: 400px;
     display: block;
     margin: auto;
 }
