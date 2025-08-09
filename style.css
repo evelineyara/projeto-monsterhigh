@@ -113,6 +113,13 @@ main > h1 {
     color: rgb(151, 82, 216);
 }
 
+picture > img {
+   border-radius: 20px;
+   box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.13);
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
 div a {
     text-decoration: none;
 }
