@@ -113,8 +113,12 @@ main > h1 {
     color: rgb(151, 82, 216);
 }
 
+main > img {
+    width: 50%;
+}
+
 main img.pequena {
-    max-width: 320px;
+    max-width: 250px;
     display: block;
     margin: auto;
 }
