@@ -113,14 +113,10 @@ main > h1 {
     color: rgb(151, 82, 216);
 }
 
-main > img {
-    width: 50%;
-}
-
-main img.pequena {
-    max-width: 250px;
-    display: block;
-    margin: auto;
+.produto-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
 img {
@@ -157,4 +153,11 @@ footer a:hover {
     padding: 10px;
 
     transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 750px) {
+    .produto-container {
+        width: 100%;
+        flex-direction: column;
+    }
 }
