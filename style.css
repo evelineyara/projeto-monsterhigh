@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right,  rgb(104, 14, 156), black);
+    background-image: linear-gradient(to right, rgb(82, 11, 129), black);
 }
 
 body > h2 {
@@ -40,7 +40,7 @@ header {
     text-align: center;
     font-family: var(--fontedestaque);
     font-weight: normal;
-    background-color: rgba(74, 4, 107, 0.185);
+    background-color: rgba(57, 23, 73, 0.322);
     padding: 5px 5px 5px 5px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.192);
